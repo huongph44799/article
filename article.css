@@ -445,7 +445,9 @@ span {
   color: #ffffff;
   overflow: hidden;
 }
-
+.footer_list p {
+  text-transform: uppercase;
+}
 .list1 {
   font-family: "FS-Mono", sans-serif;
   font-size: 20px;
@@ -477,7 +479,7 @@ span {
 
 .footer_dis {
   margin: 28px auto;
-  width: 100%;
+  max-width: 488px;
   font-family: "New-York-Small", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -659,6 +661,9 @@ span {
   }
   .input_formmat {
     width: 177px;
+  }
+  .footer_dis {
+    max-width: 281px;
   }
   .des_formmat {
     font-family: "SF-Mono", sans-serif;
